@@ -2,7 +2,7 @@
 
 This is a virtual environment for developer to build a test environment of mongodb quickly.
 
-##安裝
+##Install
 
 **Before start the testing environment, you must install the lastest version of Vargant.**
 
@@ -16,7 +16,7 @@ https://github.com/kraksoft/vagrant-box-ubuntu/releases/download/14.04/ubuntu-14
 $ vagrant box add 14.04 ubuntu-14.04-amd64.box
 ```
 
-##用法
+##Usage
 Running this command at project folder to start the virual machine：
 
 ```bash
