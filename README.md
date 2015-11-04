@@ -1,40 +1,35 @@
-#Elasticsearch-playground
+#mongodb-playground
 
-
-由Vargant及Chef-Solo建構而成的Elasticsearch測試環境，純供學習及研究之用。
+This is a virtual environment for developer to build a test environment of mongodb quickly.
 
 ##安裝
 
-**注意！在執行本測試環境前，請先安裝最新版本的Vargant。**
+**Before start the testing environment, you must install the lastest version of Vargant.**
 
-**詳細教學請見：**
-
-**[Vagrant 安裝與建構] (http://drupaltaiwan.org/forum/20141125/11378)**
-
-1.下載Ubuntu 14.04 64位元的Vagrant box檔案：
+1.Download the vagrant box of Ubuntu 14.04 64bits：
 
 https://github.com/kraksoft/vagrant-box-ubuntu/releases/download/14.04/ubuntu-14.04-amd64.box
 
-2.下載完成後，匯入該Vagrant box檔案：
+2.Import the vagrant box file：
 
 ```bash
-$ vagrant box add base ubuntu-14.04-amd64.box
+$ vagrant box add 14.04 ubuntu-14.04-amd64.box
 ```
 
 ##用法
-在sandbox/dev目錄下，輸入以下指令啟動虛擬機：
+Running this command at project folder to start the virual machine：
 
 ```bash
 $ vagrant up
 ```
 
-關閉虛擬機則是：
+Stop the virual machine:
 
 ```bash
 $ vagrant halt
 ```
 
-進入虛擬機：
+Remote to the virual machine:
 
 ```bash
 $ vagrant ssh
